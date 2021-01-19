@@ -1,0 +1,34 @@
+.contain{
+    margin: auto;
+    margin-top: 30pt;
+    width: 30%;
+    box-shadow: 1pt 2pt 1pt 1pt gray;
+    padding: 10px;
+    justify-content: center;
+}
+
+.row .close {
+    display: none;
+    border: none;
+    border-radius: 30% 30%;
+    margin-top: -1pt;
+}
+.row:hover .close{
+    display: block;
+    box-shadow:0pt 2pt 1pt 0pt gray;
+}
+#r1{
+    padding: 5pt;
+    margin-top: 1pt;
+    border-right: 4pt solid rgb(96, 216, 96);
+    box-shadow:0pt 1pt 1pt 0pt gray;
+}
+#r2{
+    padding:5pt;
+    margin-top:1pt;
+    border-right: 4pt solid rgb(214, 132, 65);
+    box-shadow:0pt 1pt 1pt 0pt gray;
+}
+#r1:hover , #r2:hover{
+    box-shadow:0pt 2pt 1pt 0pt rgb(129, 119, 119);
+}
